@@ -36,3 +36,14 @@ _{This is a detailed description of your application. Give as much detail as nee
 If you have any issues, questions, ideas or concerns, please reach out to me at my email and/or make a contribution to the code via GitHub.
 
 Copyright (c) 2021 Frank Proulx
+
+## Tests
+
+### Describe Destination()
+
+Test: It should create a Destination object with properties of location, landmarks, time of year
+Code: 
+  let dest1 = new Destination("Seattle", "Space Needle", "winter")
+  let dest1.location
+Result: "Seattle"
+
